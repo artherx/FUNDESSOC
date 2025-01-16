@@ -1,0 +1,26 @@
+---
+import text from "@text/es/index.json";
+import { useGetTranslate } from "@text/tradu";
+
+---
+<div class="flex bg-slate-500 w-full justify-center py-5 mb-5">
+
+    <div class="flex flex-col items-center gap-5 w-[75%]">
+        <h1 class="text-6xl">
+            Quienes somos
+        </h1>
+        <div class="flex gap-5">
+            
+            <div>
+                <h2 class="text-4xl">{useGetTranslate('About.mission.title')}</h2>
+                <p class="text-xs">{useGetTranslate('About.mission.body')}</p>
+            </div>
+            
+            <div>
+                
+                <h2 class="text-4xl">{useGetTranslate('About.vision.title')}</h2>
+                <p class="text-xs">{useGetTranslate('About.vision.body')}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,3 +1,6 @@
+---
+import { ThemeModeScript } from "flowbite-react";
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -6,6 +9,7 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
+		<ThemeModeScript />
 	</head>
 	<body>
 		<slot />
@@ -18,5 +22,20 @@
 		margin: 0;
 		width: 100%;
 		height: 100%;
-	}
+	}h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
 </style>

@@ -1,0 +1,14 @@
+{
+	"header": {},
+	"About": {
+		"title": "Quienes somos",
+		"mission": {
+			"title": "Misión",
+			"body": "A través de las actividades desarrolladas y con el respaldo de personas naturales, jurídicas, entidades públicas y privadas, propenderemos por contribuir al bienestar de las comunidades vulnerables de nuestra sociedad en el entorno geográfico de influencia de nuestra labor social."
+		},
+		"vision": {
+			"title": "Visión",
+			"body": "Ser la entidad de bienestar social que ofrezca la mayor atención a la población vulnerable en nuestra región, despertando en la comunidad una mayor participación en la ejecución de programas que garanticen una mejor calidad de vida."
+		}
+	}
+}

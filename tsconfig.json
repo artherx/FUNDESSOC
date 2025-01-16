@@ -24,6 +24,10 @@
       ],
       "@layout/*": [
         "./src/layouts/*"
+      ],
+      
+      "@text/*": [
+        "./src/hooks/text/*"
       ]
     },
     "jsx": "react-jsx",
