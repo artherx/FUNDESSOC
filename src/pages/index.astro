@@ -1,14 +1,15 @@
 ---
-import { Image } from 'astro:assets';
-import duo2 from '../assets/images/duo1.webp'
-import Welcome from '@comp/Welcome.astro';
-import Layout from '@layout/Layout.astro';
+import Layout from "@layout/Layout.astro";
+import Header from "@comp/Header.astro";
+import Carrusel from "@comp/Carrusel.tsx"
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
-	<Image alt={'asd'} src={duo2}/>
+	<div class="flex flex-col items-center min-h-screen">
+		<Header />
+		<Carrusel/>
+	</div>
 </Layout>
