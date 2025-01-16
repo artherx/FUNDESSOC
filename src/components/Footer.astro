@@ -1,0 +1,40 @@
+---
+import { useGetTranslate } from "@text/tradu";
+---
+<footer class="bg-gray-800 text-white py-8 w-full table-footer-group mt-2">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-lg font-semibold mb-4">{useGetTranslate('Footer.1.title')}</h3>
+          
+          <ul class="space-y-2">
+            <li>{useGetTranslate('Footer.1.local.title')} <link href="#about" class="hover:underline">{useGetTranslate('Footer.1.local.data')}</link></li>
+            <li>{useGetTranslate('Footer.1.phone.title')}<link href="#projects" class="hover:underline">{useGetTranslate('Footer.1.phone.data')}</link></li>
+            <li>{useGetTranslate('Footer.1.email.title')}<a class="text-blue-400 hover:underline" href="mailto:jaguiz1903@yahoo.com">
+                {useGetTranslate('Footer.1.email.data')}
+            </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">{useGetTranslate('Footer.2.title')}</h3>
+          <ul class="space-y-2">
+            <li><a href="#About" class="hover:underline">{useGetTranslate('Footer.2.about')}</a></li>
+            <li><a href="#projects" class="hover:underline">{useGetTranslate('Footer.2.donate')}</a></li>
+            <li><a href="#map" class="hover:underline">{useGetTranslate('Footer.2.map')}</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Síguenos</h3>
+          <div class="flex space-x-4">
+            <a href="#" class="hover:text-primary">Facebook</a>
+            <a href="#" class="hover:text-primary">Twitter</a>
+            <a href="#" class="hover:text-primary">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+        <p>{useGetTranslate('Footer.titleF')}</p>
+      </div>
+    </div>
+  </footer>

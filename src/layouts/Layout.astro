@@ -6,7 +6,7 @@ import { ThemeModeScript } from "flowbite-react";
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
 		<ThemeModeScript />
@@ -18,11 +18,15 @@ import { ThemeModeScript } from "flowbite-react";
 
 <style>
 	html,
+	*{
+		color: aliceblue;
+	}
 	body {
 		margin: 0;
 		width: 100%;
 		height: 100%;
-	}h1 {
+	}
+	h1 {
   font-size: 2rem;
 }
 
