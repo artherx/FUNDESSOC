@@ -1,0 +1,23 @@
+---
+import { useGetTranslate } from "@text/tradu";
+---
+
+<div id="Donate" class="flex flex-col items-center justify-center py-10 px-5 rounded-lg">
+  <h1 class="text-gray-800 text-5xl font-extrabold mb-8 border-b-4 border-slate-500 pb-2">
+    {useGetTranslate('Donate.title')}
+  </h1>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
+    <div class="group flex flex-col items-center gap-4 p-5 bg-white shadow-md rounded-lg hover:scale-105 transform transition-transform duration-300 h-[12rem] justify-center ">
+      <img src="/icon/bancolombia.svg" alt="Bancolombia" class="w-48 h-auto" />
+      <p class="hidden group-hover:flex text-gray-700 text-center font-semibold  transition-colors duration-300">Bancolombia</p>
+    </div>
+    <div class="group flex flex-col items-center gap-4 p-5 bg-white shadow-md rounded-lg hover:scale-105 transform transition-transform duration-300 h-[12rem] justify-center ">
+      <img src="/icon/daviplata.svg" alt="Daviplata" class="w-48 h-auto" />
+      <p class="hidden group-hover:flex text-gray-700 text-center font-semibold  transition-colors duration-300">Daviplata</p>
+    </div>
+    <div class="group flex flex-col items-center gap-4 p-5 bg-white shadow-md rounded-lg hover:scale-105 transform transition-transform duration-300 h-[12rem] justify-center ">
+      <img src="/icon/nequi-2.svg" alt="Nequi" class="w-48 h-auto" />
+      <p class="hidden group-hover:flex text-gray-700 text-center font-semibold  transition-colors duration-300">Nequi</p>
+    </div>
+  </div>
+</div>

@@ -6,6 +6,7 @@ import Carrusel1 from "@comp/Carrusel copy.tsx";
 import About from "@comp/About.astro";
 import Footer from "@comp/Footer.astro";
 import MapI from "@comp/MapI.astro";
+import Donate from "@comp/Donate.astro"
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -16,9 +17,7 @@ import MapI from "@comp/MapI.astro";
 		<Header />
 		<About/>
 		<Carrusel client:only/>
-		<div class="text-black text-6xl self-start font-bold">
-			Donar
-		</div>
+		<Donate />
 		<Carrusel1 client:only/>
 		<MapI/>
 		
