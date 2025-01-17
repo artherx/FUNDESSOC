@@ -41,9 +41,14 @@
 		"3": {
 			"title": "Síguenos"
 		},
-		"titleF": "FUNDACIÓN PARA EL DESARROLLO SOCIAL. FUNDESSOC"
+		"titleF": "FUNDACIÓN PARA EL DESARROLLO SOCIAL FUNDESSOC NIT. 900486080-1"
 	},
 	"Donate": {
 		"title": "Donar"
+	},
+	"start":{
+		"title":"FUNDACIÓN PARA EL DESARROLLO SOCIAL FUNDESSOC NIT. 900486080-1",
+		"body":""
 	}
+
 }

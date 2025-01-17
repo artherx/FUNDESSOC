@@ -6,12 +6,32 @@ import Carrusel1 from "@comp/Carrusel copy.tsx";
 import About from "@comp/About.astro";
 import Footer from "@comp/Footer.astro";
 import MapI from "@comp/MapI.astro";
-import Donate from "@comp/Donate.astro"
+import Donate from "@comp/Donate.astro";
+import { useGetTranslate } from "@text/tradu";
 ---
 
 <Layout>
 	<div class="flex flex-col items-center min-h-screen">
 		<Header />
+		
+		<div class="w-full justify-center items-center flex flex-col  py-32">
+			<h1 class="text-6xl text-center text-slate-700">{useGetTranslate('start.title')}</h1>
+			<div class="flex gap-2">
+
+				<p class="text-slate-700 text-center">{useGetTranslate('Footer.1.local.title')}</p>
+				<p class="text-slate-700  text-center">{useGetTranslate('Footer.1.local.data')}</p>
+			</div>
+			<div class="flex gap-2">
+
+				<p class="text-slate-700  text-center">{useGetTranslate('Footer.1.phone.title')}</p>
+				<p class="text-slate-700  text-center">{useGetTranslate('Footer.1.phone.data')}</p>
+			</div>
+			<div class="flex gap-2">
+				<p class="text-slate-700  text-center">{useGetTranslate('Footer.1.email.title')}</p>
+				<p class="text-slate-700 text-center">{useGetTranslate('Footer.1.email.data')}</p>
+			</div>
+
+		</div>
 		<About/>
 		<Carrusel client:only/>
 		<Donate />
