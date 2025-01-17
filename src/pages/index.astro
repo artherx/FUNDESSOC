@@ -23,6 +23,8 @@ import Donate from "@comp/Donate.astro"
 </Layout>
 
 <script>
-	const userLanguage = navigator.language
-	console.log(userLanguage)
+	
+	const userLanguage = navigator.language;
+	const idio = userLanguage.split("-")[0];
+	console.log(idio)
 </script>
