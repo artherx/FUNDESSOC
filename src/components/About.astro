@@ -1,13 +1,18 @@
 ---
 import text from "@text/es/index.json";
 import { useGetTranslate } from "@text/tradu";
+
+import Texto from "./Texto.tsx";
 ---
 
 <div id="About" class="flex bg-slate-700 w-full justify-center py-10">
     <div class="flex flex-col items-center gap-8 w-[75%]">
         <!-- Título de la sección -->
         <h1 class="text-6xl text-white font-bold text-center">
-            {useGetTranslate('About.title')}
+            <Texto client:only>
+
+                {useGetTranslate('About.title')}
+            </Texto>
         </h1>
 
         <!-- Contenedor de las cartas -->
@@ -15,20 +20,32 @@ import { useGetTranslate } from "@text/tradu";
             <!-- Carta: Misión -->
             <div class="bg-white rounded-lg shadow-lg p-6 max-w-xs text-center">
                 <h2 class="text-2xl font-semibold text-gray-800 mb-4">
-                    {useGetTranslate('About.mission.title')}
+                    <Texto client:only>
+
+                        {useGetTranslate('About.mission.title')}
+                    </Texto>
                 </h2>
                 <p class="text-gray-600 text-sm leading-relaxed text-start">
-                    {useGetTranslate('About.mission.body')}
+                    <Texto client:only>
+
+                        {useGetTranslate('About.mission.body')}
+                    </Texto>
                 </p>
             </div>
 
             <!-- Carta: Visión -->
             <div class="bg-white rounded-lg shadow-lg p-6 max-w-xs text-center">
                 <h2 class="text-2xl font-semibold text-gray-800 mb-4">
-                    {useGetTranslate('About.vision.title')}
+                    <Texto client:only>
+                        
+                        {useGetTranslate('About.vision.title')}
+                    </Texto>
                 </h2>
                 <p class="text-gray-600 text-sm leading-relaxed text-start">
-                    {useGetTranslate('About.vision.body')}
+                    <Texto client:only>
+                        
+                        {useGetTranslate('About.vision.body')}
+                    </Texto>
                 </p>
             </div>
         </div>

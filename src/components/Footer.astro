@@ -1,5 +1,6 @@
 ---
 import { useGetTranslate } from "@text/tradu";
+import Texto from "./Texto";
 ---
 <footer class="bg-gray-800 text-white py-8 w-full table-footer-group mt-2">
     <div class="container mx-auto px-4">
@@ -17,15 +18,40 @@ import { useGetTranslate } from "@text/tradu";
           </ul>
         </div>
         <div>
-          <h3 class="text-lg font-semibold mb-4">{useGetTranslate('Footer.2.title')}</h3>
+          <h3 class="text-lg font-semibold mb-4">
+            <Texto client:only>
+                        
+              {useGetTranslate('Footer.2.title')}
+            </Texto>
+          </h3>
           <ul class="space-y-2">
-            <li><a href="#About" class="hover:underline">{useGetTranslate('Footer.2.about')}</a></li>
-            <li><a href="#Donate" class="hover:underline">{useGetTranslate('Footer.2.donate')}</a></li>
-            <li><a href="#map" class="hover:underline">{useGetTranslate('Footer.2.map')}</a></li>
+            <li><a href="#About" class="hover:underline">
+              <Texto client:only>
+                {useGetTranslate('Footer.2.about')}
+                        
+              </Texto>
+            </a></li>
+            <li><a href="#Donate" class="hover:underline">
+              <Texto client:only>
+                        
+                {useGetTranslate('Footer.2.donate')}
+              </Texto>
+            </a></li>
+            <li><a href="#map" class="hover:underline">
+              <Texto client:only>
+                        
+                {useGetTranslate('Footer.2.map')}
+              </Texto>
+            </a></li>
           </ul>
         </div>
         <div>
-          <h3 class="text-lg font-semibold mb-4">{useGetTranslate('Footer.3.title')}</h3>
+          <h3 class="text-lg font-semibold mb-4">
+            <Texto client:only>
+                        
+              {useGetTranslate('Footer.3.title')}
+            </Texto>
+          </h3>
           <div class="flex space-x-4">
             <!-- Contenido principal 
             <a href="#" class="hover:text-primary">Facebook</a>
@@ -36,7 +62,12 @@ import { useGetTranslate } from "@text/tradu";
         </div>
       </div>
       <div class="mt-8 pt-8 border-t border-gray-700 text-center">
-        <p>{useGetTranslate('Footer.titleF')}</p>
+        <p>
+          <Texto client:only>
+                        
+            {useGetTranslate('Footer.titleF')}
+          </Texto>
+        </p>
       </div>
     </div>
   </footer>
