@@ -31,7 +31,7 @@ const translateK = useTranslate();
 
 export function setTranslateLocale(locale: string): void {
   // Cambiar el idioma en tiempo de ejecución
-  translateK.locale = locale.split("-")[0]; // Asegurarse de usar solo el código del idioma
+  translateK.locale = 'es' // Asegurarse de usar solo el código del idioma
 }
 
 export function getTranslateLocale(): string {
