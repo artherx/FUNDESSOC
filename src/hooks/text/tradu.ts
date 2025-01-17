@@ -1,18 +1,12 @@
 import { I18n } from "i18n-js";
-import en from "@text/en/index.json";
 import es from "@text/es/index.json";
-import pt from "@text/pt/index.json";
-import fr from "@text/fr/index.json";
 
 const userLanguage = navigator.language || "es"; // Detectar el idioma del navegador o usar español por defecto.
 
 function useTranslate(defaultLocale = "es") {
   // Asegúrate de usar el idioma detectado para la inicialización
   const i18n = new I18n({
-    en,
     es,
-    pt,
-    fr
   });
 
   const idio = userLanguage.split("-")[0]; // Extraer solo el código de idioma (ej: 'es' de 'es-ES')
