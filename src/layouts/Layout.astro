@@ -5,10 +5,31 @@ import { ThemeModeScript } from "flowbite-react";
 <html lang="es">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>FUNDESSOC - Fundación para el Desarrollo Social</title>
+		
+		<!-- Meta Description -->
+		<meta name="description" content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables. Descubre nuestra misión y visión." />
+
+		<!-- Open Graph Meta Tags (Para redes sociales) -->
+		<meta property="og:title" content="FUNDESSOC - Fundación para el Desarrollo Social" />
+		<meta property="og:description" content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables. Descubre nuestra misión y visión." />
+		<meta property="og:image" content="/images/og-image.jpg" />
+		<meta property="og:url" content="https://fundessoc.vercel.app/" />
+		<meta property="og:type" content="website" />
+
+		<!-- Twitter Card Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="FUNDESSOC - Fundación para el Desarrollo Social" />
+		<meta name="twitter:description" content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables. Descubre nuestra misión y visión." />
+		<meta name="twitter:image" content="/images/og-image.jpg" />
+
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://fundessoc.vercel.app/" />
+
+		<!-- Theme Mode Script -->
 		<ThemeModeScript />
 	</head>
 	<body>
@@ -18,7 +39,7 @@ import { ThemeModeScript } from "flowbite-react";
 
 <style>
 	html,
-	*{
+	* {
 		color: aliceblue;
 	}
 	body {
@@ -27,19 +48,16 @@ import { ThemeModeScript } from "flowbite-react";
 		height: 100%;
 	}
 	h1 {
-  font-size: 2rem;
-}
-
-@media (min-width: 768px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  h1 {
-    font-size: 4rem;
-  }
-}
-
+		font-size: 2rem;
+	}
+	@media (min-width: 768px) {
+		h1 {
+			font-size: 3rem;
+		}
+	}
+	@media (min-width: 1024px) {
+		h1 {
+			font-size: 4rem;
+		}
+	}
 </style>
