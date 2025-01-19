@@ -9,6 +9,11 @@ import { ThemeModeScript } from "flowbite-react";
 		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>FUNDESSOC - Fundación para el Desarrollo Social</title>
+		<!-- Meta Seguridad -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; script-src 'self' https://apis.google.com;">
+<meta http-equiv="X-Frame-Options" content="DENY">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
 		
 		<!-- Meta Description -->
 		<meta name="description" content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables. Descubre nuestra misión y visión." />
@@ -16,6 +21,8 @@ import { ThemeModeScript } from "flowbite-react";
 		<!-- Open Graph Meta Tags (Para redes sociales) -->
 		<meta property="og:title" content="FUNDESSOC - Fundación para el Desarrollo Social" />
 		<meta property="og:description" content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables. Descubre nuestra misión y visión." />
+		<!-- Meta Keywords -->
+		<meta name="keywords" content="Barbosa, Barbosa Santander, Santander Barbosa, Santander" />
 		<meta property="og:image" content="/icon/logoHD.png" />
 		<meta property="og:url" content="https://fundessoc.vercel.app/" />
 		<meta property="og:type" content="website" />
@@ -29,7 +36,8 @@ import { ThemeModeScript } from "flowbite-react";
 		<!-- Canonical URL -->
 		<link rel="canonical" href="https://fundessoc.vercel.app/" />
 
-		<link rel = "sitemap" href="https://fundessoc.vercel.app/"/>
+		
+		<link rel="sitemap" href="/sitemap-index.xml" />
 
 		<!-- Theme Mode Script -->
 		<ThemeModeScript />
