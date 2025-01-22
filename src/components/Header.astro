@@ -1,18 +1,17 @@
 ---
-import { useGetTranslate } from "@text/tradu";
 import { Image } from "astro:assets";
+import { useGetTranslate } from "@text/tradu";
 import logo from "src/assets/icon/logoHD.png";
-import Texto from "./Texto.tsx";
 ---
 
 <header class="sticky top-0 flex h-16 items-center justify-around w-full bg-slate-200/50 backdrop-blur-md z-50">
     <div>
         <a href="#" class="text-black">
 
-            <Image alt="logo" src={logo} height={40}/>
-            <Texto >
+            <Image alt="logo" src={logo} height={40}/>            
+            <p>
                 {useGetTranslate("Header.title")}
-                </Texto>
+            </p>
         </a>
     </div>
 </header>

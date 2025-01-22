@@ -1,28 +1,30 @@
 {
-  "name": "fundessoc",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/mdx": "4.0.6",
-    "@astrojs/react": "^4.1.5",
-    "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/tailwind": "^5.1.4",
-    "@types/react": "^19.0.7",
-    "@types/react-dom": "^19.0.3",
-    "astro": "5.1.6",
-    "flowbite-react": "0.10.2",
-    "i18n-js": "4.5.1",
-    "react": "^19.0.0-rc.1",
-    "react-dom": "^19.0.0-rc.1",
-    "tailwindcss": "^3.4.17"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4"
-  }
+	"name": "fundessoc",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"lint": "biome lint --write .",
+		"lint:fix": "biome check --write ."
+	},
+	"dependencies": {
+		"@astrojs/mdx": "4.0.6",
+		"@astrojs/react": "^4.1.5",
+		"@astrojs/sitemap": "^3.2.1",
+		"@astrojs/tailwind": "^5.1.4",
+		"@types/react": "^19.0.7",
+		"@types/react-dom": "^19.0.3",
+		"astro": "5.1.6",
+		"flowbite-react": "0.10.2",
+		"i18n-js": "4.5.1",
+		"react": "^19.0.0-rc.1",
+		"react-dom": "^19.0.0-rc.1",
+		"tailwindcss": "^3.4.17"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
 }

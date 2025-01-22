@@ -1,50 +1,49 @@
 {
 	"Header": {
-	  "title": "Home"
+		"title": "Home"
 	},
 	"About": {
-	  "title": "About Us",
-	  "mission": {
-		"title": "Mission",
-		"body": "Through the activities developed and with the support of individuals, legal entities, public and private organizations, we aim to contribute to the well-being of vulnerable communities in our society within the geographical area of influence of our social work."
-	  },
-	  "vision": {
-		"title": "Vision",
-		"body": "To be the social welfare entity that provides the greatest attention to the vulnerable population in our region, awakening greater community participation in the execution of programs that ensure a better quality of life."
-	  }
+		"title": "About Us",
+		"mission": {
+			"title": "Mission",
+			"body": "Through the activities developed and with the support of individuals, legal entities, public and private organizations, we aim to contribute to the well-being of vulnerable communities in our society within the geographical area of influence of our social work."
+		},
+		"vision": {
+			"title": "Vision",
+			"body": "To be the social welfare entity that provides the greatest attention to the vulnerable population in our region, awakening greater community participation in the execution of programs that ensure a better quality of life."
+		}
 	},
 	"MapI": {
-	  "title": "Where you can find us"
+		"title": "Where you can find us"
 	},
 	"Footer": {
-	  "1": {
-		"title": "FUNDESSOC",
-		"local": {
-		  "title": "Address: ",
-		  "data": "Calle 7 N 8-45 Barbosa Santander"
+		"1": {
+			"title": "FUNDESSOC",
+			"local": {
+				"title": "Address: ",
+				"data": "Calle 7 N 8-45 Barbosa Santander"
+			},
+			"phone": {
+				"title": "Cell: ",
+				"data": "3112301680"
+			},
+			"email": {
+				"title": "Email: ",
+				"data": "jaguiz1903@yahoo.com"
+			}
 		},
-		"phone": {
-		  "title": "Cell: ",
-		  "data": "3112301680"
+		"2": {
+			"title": "Quick Links",
+			"about": "About Us",
+			"donate": "Donations",
+			"map": "Map"
 		},
-		"email": {
-		  "title": "Email: ",
-		  "data": "jaguiz1903@yahoo.com"
-		}
-	  },
-	  "2": {
-		"title": "Quick Links",
-		"about": "About Us",
-		"donate": "Donations",
-		"map": "Map"
-	  },
-	  "3": {
-		"title": "Follow Us"
-	  },
-	  "titleF": "FOUNDATION FOR SOCIAL DEVELOPMENT. FUNDESSOC"
+		"3": {
+			"title": "Follow Us"
+		},
+		"titleF": "FOUNDATION FOR SOCIAL DEVELOPMENT. FUNDESSOC"
 	},
 	"Donate": {
-	  "title": "Donate"
+		"title": "Donate"
 	}
-  }
-  
+}

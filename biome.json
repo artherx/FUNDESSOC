@@ -5,13 +5,16 @@
 		"clientKind": "git",
 		"useIgnoreFile": false
 	},
+
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": []
+		"ignore": ["node_modules", "dist"],
+		"include": ["**/*.astro"]
 	},
 	"formatter": {
 		"enabled": true,
-		"indentStyle": "tab"
+		"indentStyle": "tab",
+		"lineEnding": "lf"
 	},
 	"organizeImports": {
 		"enabled": true
@@ -22,6 +25,22 @@
 			"recommended": true
 		}
 	},
+	"overrides": [
+		{
+			"include": ["**/*.astro"],
+			"formatter": {
+				"enabled": true
+			},
+			"linter": {
+				"rules": {
+					"style": {
+						"useConst": "off",
+						"useImportType": "off"
+					}
+				}
+			}
+		}
+	],
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "double"

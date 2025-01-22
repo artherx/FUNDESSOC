@@ -1,12 +1,12 @@
 ---
-import Layout from "@layout/Layout.astro";
-import Header from "@comp/Header.astro";
+import About from "@comp/About.astro";
 import Carrusel from "@comp/Carrusel.tsx";
 import Carrusel1 from "@comp/Carrusel copy.tsx";
-import About from "@comp/About.astro";
-import Footer from "@comp/Footer.astro";
-import MapI from "@comp/MapI.astro";
 import Donate from "@comp/Donate.astro";
+import Footer from "@comp/Footer.astro";
+import Header from "@comp/Header.astro";
+import MapI from "@comp/MapI.astro";
+import Layout from "@layout/Layout.astro";
 import { useGetTranslate } from "@text/tradu";
 ---
 
@@ -36,8 +36,7 @@ import { useGetTranslate } from "@text/tradu";
 		<Carrusel client:only/>
 		<Donate />
 		<Carrusel1 client:only/>
-		<MapI/>
-		
+		<MapI/>		
 		<Footer/>
 	</div>
 </Layout>

@@ -1,50 +1,49 @@
 {
 	"Header": {
-	  "title": "Início"
+		"title": "Início"
 	},
 	"About": {
-	  "title": "Quem Somos",
-	  "mission": {
-		"title": "Missão",
-		"body": "Através das atividades desenvolvidas e com o apoio de pessoas físicas, jurídicas, entidades públicas e privadas, buscamos contribuir para o bem-estar das comunidades vulneráveis de nossa sociedade no entorno geográfico de nossa atuação social."
-	  },
-	  "vision": {
-		"title": "Visão",
-		"body": "Ser a entidade de bem-estar social que ofereça a maior atenção à população vulnerável em nossa região, despertando maior participação da comunidade na execução de programas que garantam uma melhor qualidade de vida."
-	  }
+		"title": "Quem Somos",
+		"mission": {
+			"title": "Missão",
+			"body": "Através das atividades desenvolvidas e com o apoio de pessoas físicas, jurídicas, entidades públicas e privadas, buscamos contribuir para o bem-estar das comunidades vulneráveis de nossa sociedade no entorno geográfico de nossa atuação social."
+		},
+		"vision": {
+			"title": "Visão",
+			"body": "Ser a entidade de bem-estar social que ofereça a maior atenção à população vulnerável em nossa região, despertando maior participação da comunidade na execução de programas que garantam uma melhor qualidade de vida."
+		}
 	},
 	"MapI": {
-	  "title": "Onde nos encontrar"
+		"title": "Onde nos encontrar"
 	},
 	"Footer": {
-	  "1": {
-		"title": "FUNDESSOC",
-		"local": {
-		  "title": "Endereço: ",
-		  "data": "Calle 7 N 8-45 Barbosa Santander"
+		"1": {
+			"title": "FUNDESSOC",
+			"local": {
+				"title": "Endereço: ",
+				"data": "Calle 7 N 8-45 Barbosa Santander"
+			},
+			"phone": {
+				"title": "Celular: ",
+				"data": "3112301680"
+			},
+			"email": {
+				"title": "E-mail: ",
+				"data": "jaguiz1903@yahoo.com"
+			}
 		},
-		"phone": {
-		  "title": "Celular: ",
-		  "data": "3112301680"
+		"2": {
+			"title": "Links Rápidos",
+			"about": "Sobre nós",
+			"donate": "Doações",
+			"map": "Mapa"
 		},
-		"email": {
-		  "title": "E-mail: ",
-		  "data": "jaguiz1903@yahoo.com"
-		}
-	  },
-	  "2": {
-		"title": "Links Rápidos",
-		"about": "Sobre nós",
-		"donate": "Doações",
-		"map": "Mapa"
-	  },
-	  "3": {
-		"title": "Siga-nos"
-	  },
-	  "titleF": "FUNDAÇÃO PARA O DESENVOLVIMENTO SOCIAL. FUNDESSOC"
+		"3": {
+			"title": "Siga-nos"
+		},
+		"titleF": "FUNDAÇÃO PARA O DESENVOLVIMENTO SOCIAL. FUNDESSOC"
 	},
 	"Donate": {
-	  "title": "Doar"
+		"title": "Doar"
 	}
-  }
-  
+}
