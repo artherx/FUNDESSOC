@@ -8,6 +8,6 @@ https://fundessoc.vercel.app/
 
 ![image](https://github.com/user-attachments/assets/7eb57051-ad0b-40ad-81af-1afc0bd2c097)
 
-![image](https://github.com/user-attachments/assets/1d0c6979-384a-4c59-aef4-fda4f15b431a)
+![image](https://github.com/user-attachments/assets/e09f814b-bba7-4d54-a3d8-ee5bc0f81007)
 
-![image](https://github.com/user-attachments/assets/25f42099-389a-48e2-a289-610a475e6c28)
+![image](https://github.com/user-attachments/assets/5bd7d96d-37f1-4795-b3fa-77ddd557c976)
