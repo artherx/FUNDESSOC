@@ -9,7 +9,7 @@ import grup1 from "/public/images/grup1.webp";
 
 export default function Carrusel() {
     return (
-        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-[80%] my-2 ">
+        <section className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-[80%] my-2 ">
             <Carousel slideInterval={5000}>
                 <img src={duo.src} alt="Adulto mayor y joven sonriendo juntos en la fundación" className="h-full object-contain bg-black" />
                 <img src={duo1.src} alt="Persona mayor disfrutando de una comida en la fundación" className="h-full object-contain bg-black" />
@@ -19,6 +19,6 @@ export default function Carrusel() {
                 <img src={grup.src} alt="Grupo de adultos mayores tomándose una selfie en la fundación" className="h-full object-contain bg-black" />
                 <img src={grup1.src} alt="Grupo de personas de la fundación posando juntos para una selfie" className="h-full object-contain bg-black" />
             </Carousel>
-        </div>
+        </section>
     );
 }

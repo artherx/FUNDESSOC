@@ -1,59 +1,104 @@
 ---
 import { ThemeModeScript } from "flowbite-react";
 ---
+
 <!doctype html>
 <html lang="es">
 	<head>
 		<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-TXR2D5VL');</script>
-	<!-- End Google Tag Manager -->
-		
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4YMRXD8R9B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+		<script>
+			(function (w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({
+					"gtm.start": new Date().getTime(),
+					event: "gtm.js",
+				});
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != "dataLayer" ? "&l=" + l : "";
+				j.async = true;
+				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, "script", "dataLayer", "GTM-TXR2D5VL");
+		</script>
+		<!-- End Google Tag Manager -->
 
-  gtag('config', 'G-4YMRXD8R9B');
-</script>
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-4YMRXD8R9B"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "G-4YMRXD8R9B");
+		</script>
+
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>FUNDESSOC - Fundación para el Desarrollo Social</title>
-		<meta name="google-site-verification" content="06aaRtddeVC0W71m8RCi-rBEGNaSZxuySa9mTk6Eq4k" />
-	  
-<meta http-equiv="X-Frame-Options" content="DENY">
-<meta http-equiv="X-Content-Type-Options" content="nosniff">
-<meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
-		
+		<meta
+			name="google-site-verification"
+			content="06aaRtddeVC0W71m8RCi-rBEGNaSZxuySa9mTk6Eq4k"
+		/>
+
+		<meta http-equiv="X-Frame-Options" content="DENY" />
+		<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+		<meta
+			http-equiv="Strict-Transport-Security"
+			content="max-age=31536000; includeSubDomains"
+		/>
+
 		<!-- Meta Description -->
-		<meta name="description" content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables. Descubre nuestra misión y visión." />
+		<meta
+			name="description"
+			content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables en Barbosa Santander. Descubre nuestra misión y visión."
+		/>
 
 		<!-- Open Graph Meta Tags (Para redes sociales) -->
-		<meta property="og:title" content="FUNDESSOC - Fundación para el Desarrollo Social" />
-		<meta property="og:description" content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables. Descubre nuestra misión y visión." />
+		<meta
+			property="og:title"
+			content="FUNDESSOC - Fundación para el Desarrollo Social"
+		/>
+		<meta
+			property="og:description"
+			content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables. Descubre nuestra misión y visión."
+		/>
 		<!-- Meta Keywords -->
-		<meta name="keywords" content="Barbosa, Barbosa Santander, Santander Barbosa, Santander" />
+		<meta
+			name="keywords"
+			content="Barbosa, Barbosa Santander, Santander Barbosa, Santander, fundación, vulnerable, apoyo, fundessoc"
+		/>
+		<meta name="autor" content="Juan Esteban Güiza" />
+		<meta name="robots" content="index, follow" />
+		<meta name="googlebot" content="index, follow" />
+
 		<meta property="og:image" content="/icon/logoHD.png" />
 		<meta property="og:url" content="https://fundessoc.vercel.app/" />
 		<meta property="og:type" content="website" />
 
 		<!-- Twitter Card Meta Tags -->
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="FUNDESSOC - Fundación para el Desarrollo Social" />
-		<meta name="twitter:description" content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables. Descubre nuestra misión y visión." />
+		<meta
+			name="twitter:title"
+			content="FUNDESSOC - Fundación para el Desarrollo Social"
+		/>
+		<meta
+			name="twitter:description"
+			content="FUNDESSOC: Organización dedicada al bienestar social y apoyo a comunidades vulnerables. Descubre nuestra misión y visión."
+		/>
 		<meta name="twitter:image" content="/icon/logoHD.png" />
 
 		<!-- Canonical URL -->
 		<link rel="canonical" href="https://fundessoc.vercel.app/" />
+		<link rel="alternate" href="https://fundessoc.vercel.app/" hreflang="es-CO" />
 
-		
 		<link rel="sitemap" href="/sitemap-index.xml" />
 
 		<!-- Theme Mode Script -->
@@ -61,9 +106,14 @@ import { ThemeModeScript } from "flowbite-react";
 	</head>
 	<body>
 		<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXR2D5VL"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
+		<noscript
+			><iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-TXR2D5VL"
+				height="0"
+				width="0"
+				style="display:none;visibility:hidden"></iframe></noscript
+		>
+		<!-- End Google Tag Manager (noscript) -->
 		<slot />
 	</body>
 </html>

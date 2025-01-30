@@ -5,7 +5,7 @@ import { useGetTranslate } from "@text/tradu";
 import Texto from "./Texto.tsx";
 ---
 
-<div id="About" class="flex bg-slate-700 w-full justify-center py-10">
+<section id="About" class="flex bg-slate-700 w-full justify-center py-10">
     <div class="flex flex-col items-center gap-8 w-[75%]">
         <!-- Título de la sección -->
         <h2 class="text-6xl text-white font-bold text-center">
@@ -18,7 +18,7 @@ import Texto from "./Texto.tsx";
         <!-- Contenedor de las cartas -->
         <div class="flex flex-wrap justify-center gap-8">
             <!-- Carta: Misión -->
-            <div class="bg-white rounded-lg shadow-lg p-6 max-w-xs text-center">
+            <article class="bg-white rounded-lg shadow-lg p-6 max-w-xs text-center">
                 <h3 class="text-2xl font-semibold text-gray-800 mb-4">
                     
 
@@ -31,10 +31,10 @@ import Texto from "./Texto.tsx";
                         {useGetTranslate('About.mission.body')}
                     
                 </p>
-            </div>
+            </article>
 
             <!-- Carta: Visión -->
-            <div class="bg-white rounded-lg shadow-lg p-6 max-w-xs text-center">
+            <article class="bg-white rounded-lg shadow-lg p-6 max-w-xs text-center">
                 <h3 class="text-2xl font-semibold text-gray-800 mb-4">
                     
                         
@@ -47,7 +47,7 @@ import Texto from "./Texto.tsx";
                         {useGetTranslate('About.vision.body')}
                     
                 </p>
-            </div>
+            </article>
         </div>
     </div>
-</div>
+</section>

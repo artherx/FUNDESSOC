@@ -1,5 +1,5 @@
 import { Carousel } from "flowbite-react";
-import solo  from "/public/images/solo.webp";
+import solo from "/public/images/solo.webp";
 import solo1 from "/public/images/solo1.webp";
 import solo2 from "/public/images/solo2.webp";
 import solo3 from "/public/images/solo3.webp";
@@ -9,8 +9,10 @@ import solo6 from "/public/images/solo6.webp";
 
 export default function Carrusel1() {
 	return (
-		<div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-[80%] my-2 ">
+		<section className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-[80%] my-2 ">
 			<Carousel slideInterval={5000}>
+
+
 				<img
 					src={solo.src}
 					alt="Adulto mayor disfrutando de una comida en la fundación"
@@ -46,7 +48,8 @@ export default function Carrusel1() {
 					alt="Adulto mayor disfrutando de un momento en la fundación"
 					className="h-full object-contain bg-black"
 				/>
+
 			</Carousel>
-		</div>
+		</section>
 	);
 }

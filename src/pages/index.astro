@@ -11,10 +11,10 @@ import { useGetTranslate } from "@text/tradu";
 ---
 
 <Layout>
-	<div class="flex flex-col items-center min-h-screen">
+	<main class="flex flex-col items-center min-h-screen">
 		<Header />
 		
-		<div class="w-full justify-center items-center flex flex-col  py-32">
+		<section class="w-full justify-center items-center flex flex-col  py-32">
 			<h1 class="text-6xl text-center text-slate-700">{useGetTranslate('start.title')}</h1>
 			<div class="flex gap-2">
 
@@ -31,19 +31,12 @@ import { useGetTranslate } from "@text/tradu";
 				<p class="text-slate-700 text-center">{useGetTranslate('Footer.1.email.data')}</p>
 			</div>
 
-		</div>
+		</section>
 		<About/>
 		<Carrusel client:only/>
 		<Donate />
 		<Carrusel1 client:only/>
 		<MapI/>		
 		<Footer/>
-	</div>
+	</main>
 </Layout>
-
-<script>
-	
-	const userLanguage = navigator.language;
-	const idio = userLanguage.split("-")[0];
-	console.log(idio)
-</script>
